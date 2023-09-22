@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.nav`
   background: var(--white);
@@ -31,6 +31,7 @@ const Wrapper = styled.nav`
   .nav-link:hover {
     color: var(--primary-500);
   }
+  /* active */
   .active {
     color: var(--primary-500);
   }
